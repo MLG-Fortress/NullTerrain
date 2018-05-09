@@ -11,18 +11,19 @@
   </properties>
 
   <repositories>
-    <!-- Bukkit -->
     <repository>
-      <id>bukkit-repo</id>
-      <url>http://repo.bukkit.org/content/groups/public/</url>
+      <id>paper-repo</id>
+      <url>https://repo.destroystokyo.com/repository/maven-public/</url>
     </repository>
   </repositories>
   
   <dependencies>
     <dependency>
-      <groupId>org.bukkit</groupId>
-      <artifactId>bukkit</artifactId>
-      <version>1.4.5-R1.0</version>
+      <groupId>com.destroystokyo.paper</groupId>
+      <artifactId>paper-api</artifactId>
+      <version>1.12.2-R0.1-SNAPSHOT</version>
+      <type>jar</type>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
   
